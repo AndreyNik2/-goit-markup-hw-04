@@ -183,7 +183,7 @@ body {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/Hero.jpg);
+        url(../images/hero.jpg);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -313,7 +313,6 @@ body {
 
 .team-conteiner{
     background-color: #F5F4FA;
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -340,7 +339,7 @@ body {
 
 .wrapr{
     padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
 }
 
 
@@ -359,6 +358,7 @@ body {
 
 
 .team-item-text{
+    margin-bottom: 16px;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
@@ -366,14 +366,10 @@ body {
     letter-spacing: 0.03em;
 }
 
-.soc-conteiner{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-}
 
 .soc-list{
     display: flex;
+    justify-content: center;
 }
 
 .soc-item{
@@ -447,7 +443,7 @@ body {
 
 .clients-icon{
     width: 106px;
-    height: 60;
+    height: 60px;
 }
 
 
@@ -459,7 +455,6 @@ body {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -545,6 +540,11 @@ margin-left: 70px;
 
 
 /* Page: -------------------------Portfolio----------------------------- */
+
+
+.header-portfolio{
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 
 
 /* --------------------------------Filter--------------------- -*/
