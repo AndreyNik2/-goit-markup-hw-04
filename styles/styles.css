@@ -52,6 +52,7 @@ body {
     background-color: var(--primary-background-color);
     color: var(--grey-text-color);
     font-family: 'roboto', sans-serif;
+    margin: 0;
 }
 
 /* -----------------------Logo---------------------- */
