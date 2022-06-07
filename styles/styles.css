@@ -323,7 +323,6 @@ body {
 
 .team-list{
     display: flex;
-    padding-bottom: 94px;
 }
 
 .team-list .team-item + .team-item{
